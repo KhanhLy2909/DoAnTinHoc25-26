@@ -1,0 +1,10 @@
+D:\downloads\DoAnTinHoc_Ly_Winf\obj\Debug\DoAnTinHoc_Ly_Winf.csproj.AssemblyReference.cache
+D:\downloads\DoAnTinHoc_Ly_Winf\obj\Debug\CsvReaderWriter.Form1.resources
+D:\downloads\DoAnTinHoc_Ly_Winf\obj\Debug\DoAnTinHoc_Ly_Winf.Properties.Resources.resources
+D:\downloads\DoAnTinHoc_Ly_Winf\obj\Debug\DoAnTinHoc_Ly_Winf.csproj.GenerateResource.cache
+D:\downloads\DoAnTinHoc_Ly_Winf\obj\Debug\DoAnTinHoc_Ly_Winf.csproj.CoreCompileInputs.cache
+D:\downloads\DoAnTinHoc_Ly_Winf\bin\Debug\DoAnTinHoc_Ly_Winf.exe.config
+D:\downloads\DoAnTinHoc_Ly_Winf\bin\Debug\DoAnTinHoc_Ly_Winf.exe
+D:\downloads\DoAnTinHoc_Ly_Winf\bin\Debug\DoAnTinHoc_Ly_Winf.pdb
+D:\downloads\DoAnTinHoc_Ly_Winf\obj\Debug\DoAnTinHoc_Ly_Winf.exe
+D:\downloads\DoAnTinHoc_Ly_Winf\obj\Debug\DoAnTinHoc_Ly_Winf.pdb
