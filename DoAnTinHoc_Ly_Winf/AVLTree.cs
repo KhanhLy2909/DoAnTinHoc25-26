@@ -52,7 +52,7 @@ namespace DoAnTinHoc_Ly_Winf
                 node.Right = Insert(node.Right, key, data);
             else
             {
-                
+                node.Data = data;
                 return node;
             }
 
@@ -84,7 +84,7 @@ namespace DoAnTinHoc_Ly_Winf
             return node;
         }
 
-        
+
         public void InOrder(AVLNode node, List<string[]> result)
         {
             if (node == null) return;
@@ -92,5 +92,56 @@ namespace DoAnTinHoc_Ly_Winf
             result.Add(node.Data);
             InOrder(node.Right, result);
         }
+
+
+        public int GetHeight()
+        {
+            return Height(Root);
+        }
+
+        public int CountLeafNodes()
+        {
+            return CountLeafNodes(Root);
+        }
+
+        private int CountLeafNodes(AVLNode node)
+        {
+            if (node == null) return 0;
+            if (node.Left == null && node.Right == null) return 1;
+            return CountLeafNodes(node.Left) + CountLeafNodes(node.Right);
+        }
+
+        public int FindMin()
+        {
+            if (Root == null) throw new Exception("Cây rỗng!");
+            AVLNode current = Root;
+            while (current.Left != null)
+                current = current.Left;
+            return current.Key;
+        }
+
+        public int FindMax()
+        {
+            if (Root == null) throw new Exception("Cây rỗng!");
+            AVLNode current = Root;
+            while (current.Right != null)
+                current = current.Right;
+            return current.Key;
+        }
+
+        public AVLNode Search(AVLNode node, int key)
+        {
+            if (node == null)
+                return null;
+
+            if (key == node.Key)
+                return node;
+            else if (key < node.Key)
+                return Search(node.Left, key);
+            else
+                return Search(node.Right, key);
+        }
+
+
     }
 }
